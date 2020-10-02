@@ -2,7 +2,7 @@ from flask import Flask, request
 from predictor import Predictor
 import os
 
-port = os.environ['PORT'] if 'PORT' in os.environ else 80
+port = os.environ['PORT'] if 'PORT' in os.environ else 8082
 
 app = Flask(__name__)
 predictor = Predictor().init().configure().load_model()
