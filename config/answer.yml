@@ -1,0 +1,40 @@
+answers:
+  - intent: none
+    responses:
+      - Sorry, can't understand you
+      - Please give me more info
+      - Not sure I understand
+  - intent: greeting
+    responses:
+      - Hello. I am Chappie
+      - Good to see you
+      - Hi there, how can I help?
+  - intent: goodbye
+    responses:
+      - See you!
+      - Have a nice day
+      - Bye! Come back again soon
+  - intent:
+      - affirm
+      - good
+    responses:
+      - That's great
+      - I'm glad
+  - intent:
+      - deny
+      - bad
+    responses:
+      - That's unfortunate
+      - I'm sorry
+  - intent: thanks
+    responses:
+      - Happy to help!
+      - Any time!
+      - My pleasure
+      - You are very welcome!
+  - intent: options
+    responses:
+      - I can chat with you, enter your time, or handle your documents
+  - intent: challenge
+    responses:
+      - I am Chappie. I am a chat bot here to assist you

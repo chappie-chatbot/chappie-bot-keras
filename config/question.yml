@@ -1,0 +1,89 @@
+questions:
+  - intent: none
+  - intent: greeting
+    patterns:
+      - hi there
+      - how are you
+      - is anyone there?
+      - hey
+      - hola
+      - hello
+      - good day
+      - good morning
+      - good evening
+      - hey there
+  - intent: goodbye
+    patterns:
+      - bye
+      - see you later
+      - goodbye
+      - nice chatting to you, bye
+      - till next time
+      - see you around
+  - intent: affirm
+    patterns:
+      - 'yes'
+      - 'true'
+      - indeed
+      - of course
+      - that sounds good
+      - that's fine
+      - correct
+      - right
+  - intent: deny
+    patterns:
+      - 'no'
+      - 'false'
+      - never
+      - don't think so
+      - don't like that
+      - no way
+      - not really
+  - intent: good
+    patterns:
+      - good
+      - very good
+      - great
+      - perfect
+      - amazing
+      - wonderful
+  - intent: bad
+    patterns:
+      - bad
+      - very bad
+      - not good
+      - sad
+      - unhappy
+      - awful
+      - terrible
+  - intent: thanks
+    patterns:
+      - thanks
+      - thank you
+      - that's helpful
+      - awesome, thanks
+      - thanks for helping me
+  - intent: options
+    patterns:
+      - how you could help me
+      - what can you do
+      - what help you provide
+      - how you can be helpful
+      - what support is offered
+      - what are you capable of
+      - what are your capabilities
+      - what can I do
+      - what can I say
+      - help
+      - can you help
+  - intent: challenge
+    patterns:
+      - are you a bot
+      - are you a human
+      - am I talking to a bot
+      - am I talking to a human
+      - who are you
+      - what are you
+      - who is this
+      - what is this
+      - who am I talking to
